@@ -1,6 +1,6 @@
 # Bugs found in Database Management Systems
 
-We have successfully discovered 30 bugs (15 fixed, 21 confirmed and 9 open reported) from real-world production-level DBMSs, including 5 bugs in MySQL, 2 bugs in PostgreSQL, 17 bugs in TiDB, 3 bugs in OpenGauss, and 3 bugs in Oceanbase.
+We have successfully discovered 33 bugs (16 fixed, 24 confirmed and 9 open reported) from real-world production-level DBMSs, including 5 bugs in MySQL, 2 bugs in PostgreSQL, 20 bugs in TiDB, 3 bugs in OpenGauss, and 3 bugs in Oceanbase.
 
 We are thankful to the DBMS developers for responding to our bug reports and fixing the bugs that we found. Because the nondeterministic interleavings among operations challenges the reproducibility of the isolation-related bugs, there are 9 bugs can not be reproduced but open reported. In the future, we will aim to the research question about reproducing an isolation-related bug.
 
